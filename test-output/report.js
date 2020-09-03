@@ -53,7 +53,7 @@ formatter.match({
   "location": "StepsToVerify.user_launch_chrome_browser()"
 });
 formatter.result({
-  "duration": 8798070500,
+  "duration": 7279201700,
   "status": "passed"
 });
 formatter.match({
@@ -66,7 +66,7 @@ formatter.match({
   "location": "StepsToVerify.user_opens_URL(String)"
 });
 formatter.result({
-  "duration": 3877666300,
+  "duration": 4093252500,
   "status": "passed"
 });
 formatter.match({
@@ -79,21 +79,21 @@ formatter.match({
   "location": "StepsToVerify.user_search_for(String)"
 });
 formatter.result({
-  "duration": 2062401700,
+  "duration": 4476194300,
   "status": "passed"
 });
 formatter.match({
   "location": "StepsToVerify.user_click_on_the_first_Link()"
 });
 formatter.result({
-  "duration": 7681935200,
+  "duration": 5479924900,
   "status": "passed"
 });
 formatter.match({
   "location": "StepsToVerify.user_should_be_able_to_see_the_LOGO()"
 });
 formatter.result({
-  "duration": 116222000,
+  "duration": 106346800,
   "status": "passed"
 });
 formatter.match({
@@ -106,14 +106,14 @@ formatter.match({
   "location": "StepsToVerify.page_Title_should_be(String)"
 });
 formatter.result({
-  "duration": 13926500,
+  "duration": 20828000,
   "status": "passed"
 });
 formatter.match({
   "location": "StepsToVerify.close_the_browser()"
 });
 formatter.result({
-  "duration": 840427800,
+  "duration": 844783200,
   "status": "passed"
 });
 });

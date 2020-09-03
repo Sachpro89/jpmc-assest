@@ -18,7 +18,8 @@ public class StepsToVerify {
 	
 	@Given("User launch chrome browser")
 	public void user_launch_chrome_browser() {
-	    System.setProperty("webdriver.chrome.driver",System.getProperty("user.dir")+"//Drivers/chromedriver.exe" );
+	    //System.setProperty("webdriver.chrome.driver",System.getProperty("user.dir")+"//Drivers/chromedriver.exe" );
+		System.setProperty("webdriver.chrome.driver",System.getProperty("user.dir")+"//src//test//resources/Drivers/chromedriver.exe" );
 	    driver = new ChromeDriver();
 		hp = new HomePage(driver);
 	    		
