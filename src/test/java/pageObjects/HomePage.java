@@ -45,7 +45,7 @@ public class HomePage {
 	{
 		firstLinkXpath.click();
 		WebDriverWait wait = new WebDriverWait(driver, 100);
-		System.out.println("The LOGO is verified");;
+		System.out.println("The first link is clicked");
 		
 		}
 	
@@ -53,6 +53,7 @@ public class HomePage {
 	{
 		WebDriverWait wait = new WebDriverWait(driver, 100);
 		wait.until(ExpectedConditions.visibilityOf(logo));
+		System.out.println("The LOGO is verified");
 	}
 	
 	

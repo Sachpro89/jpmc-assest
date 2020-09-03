@@ -12,7 +12,7 @@ import cucumber.api.junit.Cucumber;
 		glue = "stepDefinitions",
 		dryRun=false,
 		monochrome=true,
-		plugin= {"pretty", "html:test-output"}
+		plugin= {"pretty", "html:/target/reports"}
 		)
 public class TestRun {
 
