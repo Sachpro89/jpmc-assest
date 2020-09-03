@@ -36,7 +36,7 @@ public class HomePage {
 	{
 		txtbox .sendKeys(search);
 		txtbox.sendKeys(Keys.ENTER);
-		driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
+		
 	}
 	
 	

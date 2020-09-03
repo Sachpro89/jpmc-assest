@@ -31,6 +31,7 @@ public class StepsToVerify {
 	public void user_opens_URL(String URL) {
 		driver.get(URL);
 	    driver.manage().window().maximize();
+	    driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
 	   
 	}
 	
